@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Fundamentals Lab Review</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; }
+        h1, h2, h3 { color: #333; }
+        .quiz-section { border-left: 4px solid #007bff; padding-left: 20px; margin-bottom: 30px; }
+        .question-block { margin-bottom: 20px; }
+        strong { color: #0056b3; }
+        code { background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+        pre { background-color: #f4f4f4; padding: 15px; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+
+    <h1>Deep Learning Fundamentals Lab Review</h1>
+
+    <div class="quiz-section">
+        <h2>Deep Learning Fundamentals Lab Admissions Quiz (Part 1)</h2>
+        <div class="question-block">
+            <p><strong>1. What is the identity matrix?</strong><br>
+            Answer: A square matrix with 1s on the diagonal and 0s elsewhere.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>2. Why is matrix multiplication not commutative in general?</strong><br>
+            Answer: AB ≠ BA because order affects the computation.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>3. Find the determinant of [[3, 2], [1, 4]].</strong><br>
+            Answer: 10. The determinant is calculated as (3 * 4) - (2 * 1) = 12 - 2 = 10.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>4. What is the null space of a matrix?</strong><br>
+            Answer: All vectors x where Ax = 0.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>5. How are the rank and nullity of a matrix related?</strong><br>
+            Answer: Rank + Nullity = number of columns. This is known as the Rank-Nullity Theorem.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>6. Evaluate: "Orthogonal matrices preserve lengths and angles." Is this true?</strong><br>
+            Answer: True. They represent rotations and reflections, which are transformations that preserve both length and angles.</p>
+        </div>
+    </div>
+
+    <div class="quiz-section">
+        <h2>Deep Learning Fundamentals Lab Admissions Quiz (Part 2)</h2>
+        <div class="question-block">
+            <p><strong>7. Why is f(x) = |x| not differentiable at x = 0?</strong><br>
+            Answer: Left and right derivatives are different.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>8. What is the gradient of a scalar function?</strong><br>
+            Answer: A vector of all partial derivatives.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>9. Calculate lim(x->0) sin(x)/x.</strong><br>
+            Answer: 1.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>10. Find the derivative of f(x) = sin(2x).</strong><br>
+            Answer: 2cos(2x).</p>
+        </div>
+        <div class="question-block">
+            <p><strong>11. How do partial derivatives relate to directional derivatives?</strong><br>
+            Answer: The directional derivative is the dot product of the gradient with the direction vector.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>12. Create a function with exactly two critical points.</strong><br>
+            Answer: f(x) = x³ - 3x.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>13. What's the difference between discrete and continuous distributions?</strong><br>
+            Answer: A discrete distribution has countable outcomes, while a continuous distribution has outcomes that fall within intervals.</p>
+        </div>
+    </div>
+
+    <div class="quiz-section">
+        <h2>Deep Learning Fundamentals Lab Admissions Quiz (Part 3)</h2>
+        <div class="question-block">
+            <p><strong>14. What is a random variable?</strong><br>
+            Answer: A variable whose values depend on chance.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>15. What type of distribution models coin flips?</strong><br>
+            Answer: Binomial.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>16. If you flip a fair coin 3 times, what's P(exactly 2 heads)?</strong><br>
+            Answer: 3/8.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>17. How does the Central Limit Theorem work?</strong><br>
+            Answer: The distribution of sample means approaches a normal distribution as the sample size n increases.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>18. Create a scenario where mean and median are equal.</strong><br>
+            Answer: Any symmetric distribution.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>19. Why are Python lists different from arrays in C?</strong><br>
+            Answer: Lists can hold mixed types and resize dynamically.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>20. What is the value of 2 ** 3?</strong><br>
+            Answer: 8.</p>
+        </div>
+    </div>
+
+    <div class="quiz-section">
+        <h2>Deep Learning Fundamentals Lab Admissions Quiz (Part 4)</h2>
+        <div class="question-block">
+            <p><strong>21. How do you check if 5 is in list [1, 2, 3, 4, 5]?</strong><br>
+            Answer: 5 in [1, 2, 3, 4, 5].</p>
+        </div>
+        <div class="question-block">
+            <p><strong>22. Why does "2" + 3 raise an error?</strong><br>
+            Answer: Python doesn't implicitly convert types.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>23. How does Python's garbage collection work?</strong><br>
+            Answer: Automatic reference counting.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>24. Evaluate: "Lambda functions can replace all def functions." True or false?</strong><br>
+            Answer: False. Lambdas are limited to expressions.</p>
+        </div>
+    </div>
+
+    <div class="quiz-section">
+        <h2>Orientation Quiz</h2>
+        <div class="question-block">
+            <p><strong>1. Where should you look to find graded Activity checks in your virtual machine?</strong><br>
+            Answer: The left panel.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>2. What is the primary focus of the Deep Learning Fundamentals Lab?</strong><br>
+            Answer: Teaching deep learning concepts and neural network architectures through end-to-end projects.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>3. If a student wants to join office hours, they can find the schedule by:</strong><br>
+            Answer: Checking the calendar.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>4. What is the primary purpose of the Piazza platform?</strong><br>
+            Answer: To serve as a central hub for announcements, resources, and community connections.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>5. True or False: The Lessons and Assignments in the virtual machine platform will work equally well on a mobile device as they will on a computer.</strong><br>
+            Answer: FALSE.</p>
+        </div>
+    </div>
+
+    <div class="quiz-section">
+        <h2>Background Mathematics Refresher</h2>
+        <h3>Code Tasks</h3>
+        <div class="question-block">
+            <p><strong>Code Task 1.0.2.1:</strong> Plot a 1D linear function with beta = 10 and omega = -2.</p>
+            <pre><code>import numpy as np
+
+def linear_function_1D(x, beta, omega):
+    return beta + omega * x
+
+x = np.arange(0, 10, 0.01)
+y1 = linear_function_1D(x, 10, -2)</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.0.3.1:</strong> Create a 3D linear surface with β = -3, ω₁ = 1, ω₂ = 0.</p>
+            <pre><code>import numpy as np
+
+x1_vals = np.linspace(-5, 5, 50)
+x2_vals = np.linspace(-5, 5, 50)
+X1, X2 = np.meshgrid(x1_vals, x2_vals)
+
+Y1 = -3 + 1 * X1 + 0 * X2</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.0.4.1:</strong> Compute the output of a simple linear system with fixed weights and biases.</p>
+            <pre><code>import numpy as np
+
+x_vec = np.array([[2], [-3]])
+omega_mat = np.array([[1, -2], [0.5, 0.1], [-1, 3]])
+beta_vec = np.array([[1], [0], [-2]])
+
+y_fixed = beta_vec + np.matmul(omega_mat, x_vec)</code></pre>
+        </div>
+        <h3>Multiple Choice Questions</h3>
+        <div class="question-block">
+            <p><strong>Q 1.0.2.1: How does changing β affect the graph of a linear function y=β+ωx?</strong><br>
+            Answer: It shifts the line vertically.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.0.2.2: What is the effect of setting ω=0 in a linear function?</strong><br>
+            Answer: The line becomes horizontal.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.0.3.1: What happens to the 3D plane if you set ω₁=0?</strong><br>
+            Answer: The plane becomes flat in the x₁-direction.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.0.4.1: What happens to exp(x) as x → +∞?</strong><br>
+            Answer: It grows without bound.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.0.4.2: What happens to log(x) as x → 0⁺?</strong><br>
+            Answer: It goes to −∞.</p>
+        </div>
+    </div>
+
+    <div class="quiz-section">
+        <h2>Deep Learning Context and PyTorch Basics</h2>
+        <h3>Code Tasks</h3>
+        <div class="question-block">
+            <p><strong>Code Task 1.1.2.1:</strong> Create a scalar, a vector, and a matrix tensor in PyTorch.</p>
+            <pre><code>import torch
+
+my_scalar = torch.tensor(10)
+my_vector = torch.tensor([5, 10, 15])
+my_matrix = torch.tensor([[1, 2, 3], [4, 5, 6]])</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.1.4.1:</strong> Perform element-wise addition, multiplication, and dot product on two vectors.</p>
+            <pre><code>import torch
+
+a = torch.tensor([1, 3, 5])
+b = torch.tensor([2, 4, 6])
+
+add_result = a + b
+mult_result = a * b
+dot_result = torch.dot(a, b)</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.1.4.2:</strong> Compute the sum of a matrix and a vector using broadcasting.</p>
+            <pre><code>import torch
+
+my_matrix = torch.tensor([[1, 2, 3], [4, 5, 6]])
+my_vector = torch.tensor([7, 7, 7])
+
+broadcast_sum = my_matrix + my_vector
+# Expected output: [[8, 9, 10], [11, 12, 13]]</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.1.5.1:</strong> Get the shape and column names from a pandas DataFrame.</p>
+            <pre><code>import pandas as pd
+
+# Placeholder data to avoid NameError
+sample_data = {'Cement': [540.0], 'Water': [162.0], 'Age': [28]}
+data = pd.DataFrame(sample_data)
+
+dataset_shape = data.shape
+column_names = data.columns.tolist()</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.1.6.1:</strong> Create new tensors containing the first 100 rows of existing tensors.</p>
+            <pre><code>import torch
+
+# Placeholder tensors to avoid NameError
+inputs_tensor = torch.randn(200, 8)
+targets_tensor = torch.randn(200, 1)
+
+inputs_100 = inputs_tensor[:100]
+targets_100 = targets_tensor[:100]</code></pre>
+        </div>
+        <div class="question-block">
+            <p><strong>Code Task 1.1.7.1:</strong> Plot a histogram of a specific feature from the dataset.</p>
+            <pre><code>import matplotlib.pyplot as plt
+import torch
+
+# Placeholder tensor to avoid NameError
+inputs = torch.randn(1030, 8)
+
+water_feature = inputs[:, 3]
+
+plt.hist(water_feature.numpy(), bins=15)
+plt.xlabel("Water (kg in a m^3 mixture)")
+plt.title("Distribution of Water Content")
+plt.show()</code></pre>
+        </div>
+        <h3>Multiple Choice Questions</h3>
+        <div class="question-block">
+            <p><strong>Q 1.1.1.1: What is a key characteristic of deep learning compared to traditional machine learning methods?</strong><br>
+            Answer: It learns features automatically from raw data using multiple neural layers.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.1.3.1: Which of the following events marked a major breakthrough in deep learning in 2012?</strong><br>
+            Answer: AlexNet winning the ImageNet competition using a deep convolutional neural network.</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.1.8.1: Which feature showed the strongest positive relationship with Concrete Strength?</strong><br>
+            Answer: Cement (component 1).</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.1.8.2: Which feature seems to have a weaker or noisier relationship with Concrete Strength?</strong><br>
+            Answer: Water (component 4).</p>
+        </div>
+        <div class="question-block">
+            <p><strong>Q 1.1.8.3: As the Age of concrete increases, the Concrete Strength tends to:</strong><br>
+            Answer: Increase.</p>
+        </div>
+    </div>
+
+</body>
+</html>
